@@ -3,8 +3,8 @@ import axios from 'axios';
 
 const AddEvent = ({ setScreen }) => {
   const [date, setDate] = useState(new Date().toISOString().split("T")[0]);
-  const [startHour, setStartHour] = useState(0);
-  const [endHour, setEndHour] = useState(1);
+  const [startHour, setStartHour] = useState('');
+  const [endHour, setEndHour] = useState('');
   const [message, setMessage] = useState('');
   const [messageColor, setMessageColor] = useState('');
 
