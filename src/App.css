@@ -1,0 +1,99 @@
+body, html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  text-align: center;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  max-width: 90%;
+  width: 500px;
+  overflow: auto;
+  margin: 20px;
+}
+
+h1, h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+input, button {
+  font-size: 16px;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: calc(100% - 22px);
+}
+
+button {
+  cursor: pointer;
+  background-color: #4CAF50; /* Change to your desired background color */
+  color: rgb(28, 65, 230); /* Set text color to blue */
+  border: none;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.table-container {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+.past-event {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px; 
+  font-size: 16px; 
+  border: none; 
+  border-radius: 5px; 
+  background-color: #007bff !important; 
+  color: white !important; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+  margin: 10px; 
+}
+
+button:hover {
+  background-color: #0056b3 !important; 
+  
+}
