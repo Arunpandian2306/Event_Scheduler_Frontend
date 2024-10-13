@@ -1,8 +1,42 @@
-# React + Vite
+# Event Scheduler(FE)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- **Create Events**:
+- Users can select a date and specify the start and end times for their events.
+- Date Default show Present Date
+- Past Date Cannot be Accessable
+- But Future Date Can Accessable
+  
+- **Validation**:
+- The application checks for overlapping events, providing feedback to users if the selected time conflicts with existing ones.
 
-Currently, two official plugins are available:
+- **Event List**:
+- It Shows the list of event in a table with a Scroll Bar
+- Where Past Event is Blur or Hightlite as red
+  
+- **Responsive Design**:
+- The UI is designed to be simple and easy to navigate, allowing users to quickly add new events.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- **Frontend**: React
+- **Backend**: Node.js (Express)
+- **Styling**: CSS 
+- **Axios**: For making HTTP requests to the backend API
+- **To-Build**: Docker
+  
+## Installation & Setup
+
+- Requirement
+•	node version 18
+•	docker
+
+- Backend Setup
+•	```bash
+   git clone https://github.com/Arunpandian2306/Event_Scheduler_Backend.git
+•	docker-compose up --build
+  
+- Frontend Setup
+•	```bash
+   git clone https://github.com/Arunpandian2306/Event_Scheduler_Frontend.git
+•	docker-compose up --build   
+•	open this url http://localhost:5173/
+
